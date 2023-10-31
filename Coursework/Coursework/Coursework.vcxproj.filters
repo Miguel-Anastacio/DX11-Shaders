@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Manipulation Shaders">
+      <UniqueIdentifier>{65bba50b-78fb-43ec-ba22-9fd543adb489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Depth Shaders">
+      <UniqueIdentifier>{e5a4a109-2bc3-4319-bc80-b3e515ea5e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Debug">
+      <UniqueIdentifier>{0a20ad65-eb72-4ed9-8d89-3317bbab68ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Depth">
+      <UniqueIdentifier>{9bdd9435-125c-446c-9a64-9c533924fe50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Post Process">
+      <UniqueIdentifier>{2d29d5b3-de1f-4ed9-8393-b3b95d58873d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Tesselation">
+      <UniqueIdentifier>{5ed1227e-b602-408d-a53a-de165bd1e573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Vertex Manipulation">
+      <UniqueIdentifier>{cad7165d-8471-44ea-b971-99bf65c808e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Manipulation Shaders">
+      <UniqueIdentifier>{a2c44ef9-d948-4207-9019-0130943898e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Depth Shaders">
+      <UniqueIdentifier>{f5ca555d-8331-4e11-809a-814e09c21ff0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlendingShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthWaveShader.cpp">
+      <Filter>Source Files\Depth Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthHeightMapShader.cpp">
+      <Filter>Source Files\Depth Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthShader.cpp">
+      <Filter>Source Files\Depth Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GerstnerWaveShader.cpp">
+      <Filter>Source Files\Manipulation Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ManipulationShader.cpp">
+      <Filter>Source Files\Manipulation Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Lamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TessellationShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TessellatedPlaneMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendingShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthShader.h">
+      <Filter>Header Files\Depth Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthHeightMapShader.h">
+      <Filter>Header Files\Depth Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthWaveShader.h">
+      <Filter>Header Files\Depth Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ManipulationShader.h">
+      <Filter>Header Files\Manipulation Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GerstnerWaveShader.h">
+      <Filter>Header Files\Manipulation Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Lamp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TessellationShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TessellatedPlaneMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shadow_vs.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="shadow_ps.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="basic_vs.hlsl">
+      <Filter>Resource Files\Debug</Filter>
+    </FxCompile>
+    <FxCompile Include="basic_ps.hlsl">
+      <Filter>Resource Files\Debug</Filter>
+    </FxCompile>
+    <FxCompile Include="depth_heightMap_ps.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="depth_heightMap_vs.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="depth_vs.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="depth_ps.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="depth_wave_vs.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="bloom_ps.hlsl">
+      <Filter>Resource Files\Post Process</Filter>
+    </FxCompile>
+    <FxCompile Include="horizontalBlur_ps.hlsl">
+      <Filter>Resource Files\Post Process</Filter>
+    </FxCompile>
+    <FxCompile Include="verticalBlur_ps.hlsl">
+      <Filter>Resource Files\Post Process</Filter>
+    </FxCompile>
+    <FxCompile Include="gertsnerWave_vs.hlsl">
+      <Filter>Resource Files\Vertex Manipulation</Filter>
+    </FxCompile>
+    <FxCompile Include="manipulation_ps.hlsl">
+      <Filter>Resource Files\Vertex Manipulation</Filter>
+    </FxCompile>
+    <FxCompile Include="manipulation_vs.hlsl">
+      <Filter>Resource Files\Vertex Manipulation</Filter>
+    </FxCompile>
+    <FxCompile Include="tessellatedHeightMap_ds.hlsl">
+      <Filter>Resource Files\Tesselation</Filter>
+    </FxCompile>
+    <FxCompile Include="tessellation_hs.hlsl">
+      <Filter>Resource Files\Tesselation</Filter>
+    </FxCompile>
+    <FxCompile Include="tessellation_vs.hlsl">
+      <Filter>Resource Files\Tesselation</Filter>
+    </FxCompile>
+    <FxCompile Include="depth_heightMap_ds.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="blending_ps.hlsl">
+      <Filter>Resource Files\Post Process</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shadow.hlsli">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LightBuffer.hlsli">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
